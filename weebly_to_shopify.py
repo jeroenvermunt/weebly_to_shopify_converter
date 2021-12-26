@@ -73,7 +73,7 @@ def main(weebly_path='weebly_product.csv',shopify_path='shopify_products.csv'):
 
     shopify['Vendor'] = 'myVendor'
     shopify['Published'] = True
-    shopify['Variant Inventory Tracker'] = 'shopify'
+    shopify['Variant Inventory Tracker'] = None
     shopify['Variant Inventory Policy'] = 'deny'
     shopify['Variant Fulfillment Service'] = 'manual'
     shopify['Variant Requires Shipping'] = True
